@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./collections-home.component.css'],
 })
 export class CollectionsHomeComponent implements OnInit {
+  testProperty = './';
   data = [
     { name: 'james', age: 24, job: 'marketing', employed: true },
     { name: 'craig', age: 29, job: 'Rugby player', employed: true },
